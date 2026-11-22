@@ -70,7 +70,6 @@ if st.button("Detect Fraud"):
         'transactions_last_24h',
         'is_new_device',
         'failed_attempts_last_24h',
-        'transaction_hour'
     ])
     # Model prediction
     prediction = model.predict(input_data)
